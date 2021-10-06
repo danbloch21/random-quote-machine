@@ -1,0 +1,56 @@
+.app {
+    flex-grow: 1;
+    text-align: center;
+    padding: 25px;
+  }
+
+  .quote {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    background-color: #004d00;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: white;
+    border-radius: 10px;
+
+  }
+
+  .author {
+    color: #004d00;
+    font-size: 1rem;
+  }
+
+  .button {
+    background: #00e600;
+    background-image: -webkit-linear-gradient(top, #00e600, #00cc00);
+    background-image: -moz-linear-gradient(top, #00e600, #00cc00);
+    background-image: -ms-linear-gradient(top, #00e600, #00cc00);
+    background-image: -o-linear-gradient(top, #00e600, #00cc00);
+    background-image: linear-gradient(to bottom, #00e600, #00cc00);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .button:hover {
+    background: #47e309;
+    background-image: -webkit-linear-gradient(top, #47e309, #2c8f04);
+    background-image: -moz-linear-gradient(top, #47e309, #2c8f04);
+    background-image: -ms-linear-gradient(top, #47e309, #2c8f04);
+    background-image: -o-linear-gradient(top, #47e309, #2c8f04);
+    background-image: linear-gradient(to bottom, #47e309, #2c8f04);
+    text-decoration: none;
+  }
+
+  .twitter-share-button {
+    padding: 10px 20px 10px 20px;
+  }
