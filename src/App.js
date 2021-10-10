@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { FaTwitter } from "react-icons/fa";
 import "./App.css";
 
 const ShowQuote = ({ quote }) => {
@@ -16,6 +17,44 @@ const Button = ({ fetchNewQuote }) => {
     <button id="new-quote" className="button" onClick={() => fetchNewQuote()}>
       Quote me
     </button>
+  );
+};
+
+const TwitterButton = ({ quote, author }) => {
+  return (
+    <div
+      style={{
+        margin: "16px 0",
+        width: "100%",
+        display: "flex",
+        justifyContent: "center",
+      }}
+    >
+      <a
+        id="tweet-quote"
+        style={{ textDecoration: "none" }}
+        href={`https://twitter.com/intent/tweet?text="${quote}", ${author}`}
+      >
+        <div
+          style={{
+            cursor: "pointer",
+            borderRadius: "5px",
+            outline: "none",
+            border: "none",
+            backgroundColor: "#2e90d4",
+            color: "white",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            gap: "4px",
+            padding: "4px 8px",
+          }}
+        >
+          <FaTwitter />
+          Tweet
+        </div>
+      </a>
+    </div>
   );
 };
 
@@ -48,17 +87,16 @@ function App() {
 
         <Button fetchNewQuote={fetchNewQuote} />
       </div>
-      <div>
-        <a
+      <TwitterButton quote={quote} author={author} />
+      {/* <a
           data-size="large"
           className="twitter-share-button"
-          href={`https://twitter.com/intent/tweet?text=${quote} ${author}`}
+          href={`https://twitter.com/intent/tweet?text=${quote},${author}`}
           id="tweet-quote"
           data-show-count="false"
         >
           Tweet
-        </a>
-      </div>
+        </a> */}
     </div>
   );
 }
