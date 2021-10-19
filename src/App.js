@@ -21,6 +21,14 @@ const Button = ({ fetchNewQuote }) => {
 };
 
 const TwitterButton = ({ quote, author }) => {
+  {
+    /* TwitterButton is a dummy component - doesn't handle any logic - that receives the props needed (quote and author) and renders them below */
+  }
+
+  {
+    /* A container for the buttons */
+  }
+
   return (
     <div
       style={{
@@ -30,11 +38,13 @@ const TwitterButton = ({ quote, author }) => {
         justifyContent: "center",
       }}
     >
+      {/* a is an anchor tag to allow the user to navigate to another page, in this case, an Twitter API. For more on anchor tags and hrefs, see MDN */}
       <a
         id="tweet-quote"
         style={{ textDecoration: "none" }}
         href={`https://twitter.com/intent/tweet?text="${quote}", ${author}`}
       >
+        {/* this line navigates the user to Twitter's home page, then opens a tweet dialogue box and inserts into it the quote and the author props held in state passed down from the App component */}
         <div
           style={{
             cursor: "pointer",
@@ -50,7 +60,8 @@ const TwitterButton = ({ quote, author }) => {
             padding: "4px 8px",
           }}
         >
-          <FaTwitter />
+          <FaTwitter />{" "}
+          {/* the Twitter bird icon imported from React icons package */}
           Tweet
         </div>
       </a>
