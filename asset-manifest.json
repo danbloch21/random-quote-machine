@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/danbloch21/random-quote-machine.git/static/css/main.91c527bd.chunk.css",
+    "main.js": "/danbloch21/random-quote-machine.git/static/js/main.b3ff63a3.chunk.js",
+    "main.js.map": "/danbloch21/random-quote-machine.git/static/js/main.b3ff63a3.chunk.js.map",
+    "runtime-main.js": "/danbloch21/random-quote-machine.git/static/js/runtime-main.d6cfedd9.js",
+    "runtime-main.js.map": "/danbloch21/random-quote-machine.git/static/js/runtime-main.d6cfedd9.js.map",
+    "static/js/2.fd6d3254.chunk.js": "/danbloch21/random-quote-machine.git/static/js/2.fd6d3254.chunk.js",
+    "static/js/2.fd6d3254.chunk.js.map": "/danbloch21/random-quote-machine.git/static/js/2.fd6d3254.chunk.js.map",
+    "static/js/3.45e59afa.chunk.js": "/danbloch21/random-quote-machine.git/static/js/3.45e59afa.chunk.js",
+    "static/js/3.45e59afa.chunk.js.map": "/danbloch21/random-quote-machine.git/static/js/3.45e59afa.chunk.js.map",
+    "index.html": "/danbloch21/random-quote-machine.git/index.html",
+    "static/css/main.91c527bd.chunk.css.map": "/danbloch21/random-quote-machine.git/static/css/main.91c527bd.chunk.css.map",
+    "static/js/2.fd6d3254.chunk.js.LICENSE.txt": "/danbloch21/random-quote-machine.git/static/js/2.fd6d3254.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d6cfedd9.js",
+    "static/js/2.fd6d3254.chunk.js",
+    "static/css/main.91c527bd.chunk.css",
+    "static/js/main.b3ff63a3.chunk.js"
+  ]
+}
